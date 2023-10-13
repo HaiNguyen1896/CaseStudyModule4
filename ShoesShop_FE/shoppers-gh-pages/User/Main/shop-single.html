@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shoppers &mdash; Colorlib e-Commerce Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700">
+    <link rel="stylesheet" href="../../css/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/magnific-popup.css">
+    <link rel="stylesheet" href="../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../css/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="../../css/aos.css">
+
+    <link rel="stylesheet" href="../../css/style.css">
+
+
+</head>
+<body>
+
+<div class="site-wrap">
+    <header class="site-navbar" role="banner">
+        <div class="site-navbar-top">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-6 col-md-4 order-2 order-md-1 site-search-icon text-left">
+                        <form action="" class="site-block-top-search">
+                            <span class="icon icon-search2"></span>
+                            <input type="text" class="form-control border-0" placeholder="Search">
+                        </form>
+                    </div>
+
+                    <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
+                        <div class="site-logo">
+                            <a href="index.html" class="js-logo-clone">Shoppers</a>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 order-3 order-md-3 text-right">
+                        <div class="site-top-icons">
+                            <ul>
+                                <li><a href="#"><span class="icon icon-person"></span></a></li>
+                                <li><a href="#"><span class="icon icon-heart-o"></span></a></li>
+                                <li>
+                                    <a href="cart.html" class="site-cart">
+                                        <span class="icon icon-shopping_cart"></span>
+                                        <span class="count">2</span>
+                                    </a>
+                                </li>
+                                <li class="d-inline-block d-md-none ml-md-0"><a href="#"
+                                                                                class="site-menu-toggle js-menu-toggle"><span
+                                        class="icon-menu"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <nav class="site-navigation text-right text-md-center" role="navigation">
+            <div class="container">
+                <ul class="site-menu js-clone-nav d-none d-md-block">
+                    <li class="has-children">
+                        <a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Menu One</a></li>
+                            <li><a href="#">Menu Two</a></li>
+                            <li><a href="#">Menu Three</a></li>
+                            <li class="has-children">
+                                <a href="#">Sub Menu</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Menu One</a></li>
+                                    <li><a href="#">Menu Two</a></li>
+                                    <li><a href="#">Menu Three</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-children">
+                        <a href="about.html">About</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Menu One</a></li>
+                            <li><a href="#">Menu Two</a></li>
+                            <li><a href="#">Menu Three</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="shop.html">Shop</a></li>
+                    <li><a href="#">Catalogue</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="bg-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-0"><a href="index.html">Home</a> <span class="mx-2 mb-0">/</span> <strong
+                        class="text-black">Sản phẩm chi tiết</strong></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="" alt="Image" class="img-fluid" id="product-image">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-black" id="product-name"></h2>
+                    <p id="product-describle"></p>
+                    <p><strong class="text-primary h4" id="product-price"></strong></p>
+                    <div class="mb-1 d-flex">
+                        <!--              <label for="option-sm" class="d-flex mr-3 mb-3">-->
+                        <!--                <span class="d-inline-block mr-2" style="top:-2px; position: relative;"><input type="radio" id="option-sm" name="shop-sizes"></span> <span class="d-inline-block text-black">Small</span>-->
+                        <!--              </label>-->
+                        <!--              <label for="option-md" class="d-flex mr-3 mb-3">-->
+                        <!--                <span class="d-inline-block mr-2" style="top:-2px; position: relative;"><input type="radio" id="option-md" name="shop-sizes"></span> <span class="d-inline-block text-black">Medium</span>-->
+                        <!--              </label>-->
+                        <!--              <label for="option-lg" class="d-flex mr-3 mb-3">-->
+                        <!--                <span class="d-inline-block mr-2" style="top:-2px; position: relative;"><input type="radio" id="option-lg" name="shop-sizes"></span> <span class="d-inline-block text-black">Large</span>-->
+                        <!--              </label>-->
+                        <!--              <label for="option-xl" class="d-flex mr-3 mb-3">-->
+                        <!--                <span class="d-inline-block mr-2" style="top:-2px; position: relative;"><input type="radio" id="option-xl" name="shop-sizes"></span> <span class="d-inline-block text-black"> Extra Large</span>-->
+                        <!--              </label>-->
+                        <select id="sizes-list"></select><br>
+                    </div>
+                    <div class="mb-5">
+                        <div class="input-group mb-3" style="max-width: 120px;">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-outline-primary js-btn-minus" type="button" id="decBtn">&minus;
+                                </button>
+                            </div>
+                            <input type="text" id="quantity-input" class="form-control text-center" value="1"
+                                   placeholder="" aria-label="Example text with button addon"
+                                   aria-describedby="button-addon1">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-primary js-btn-plus" type="button" id="incBtn">&plus;
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <p>
+                        <button class="buy-now btn btn-sm btn-primary" id="addCartBtn">Add To Cart</button>
+                    </p>
+                    <!--            <button><a href="cart.html" class="buy-now btn btn-sm btn-primary">Add To Cart</a></button>-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    Comment-->
+    <section class="gradient-custom">
+        <div class="container my-5 py-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12 col-lg-10 col-xl-8">
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <h4 class="text-center mb-4 pb-2">Bình luận về sản phẩm</h4>
+
+                            <div class="row">
+                                <div class="col" id="comment-body">
+                                    <!--                    <div class="d-flex flex-start" ></div>-->
+                                    <!--                      <img class="rounded-circle shadow-1-strong me-3"-->
+                                    <!--                           src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" width="65"-->
+                                    <!--                           height="65" />-->
+                                    <!--                      <div class="flex-grow-1 flex-shrink-1" >-->
+                                    <!--                        <div>-->
+                                    <!--                          <div class="d-flex justify-content-between align-items-center">-->
+                                    <!--                            <p class="mb-1" id="user-nameComment"></p>-->
+                                    <!--                            <p class="small"></p>-->
+                                    <!--                            <a href="#!"><i class="fas fa-reply fa-xs"></i><span class="small"> reply</span></a>-->
+                                    <!--                          </div>-->
+                                    <!--                          <p class="small mb-0" id="user-comment">-->
+
+                                    <!--                          </p>-->
+                                    <!--                        </div>-->
+
+                                    <!--                        <div class="d-flex flex-start mt-4">-->
+                                    <!--                          <a class="me-3" href="#">-->
+                                    <!--                            <img class="rounded-circle shadow-1-strong"-->
+                                    <!--                                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(11).webp" alt="avatar"-->
+                                    <!--                                 width="65" height="65" />-->
+                                    <!--                          </a>-->
+                                    <!--                          <div class="flex-grow-1 flex-shrink-1">-->
+                                    <!--                            <div>-->
+                                    <!--                              <div class="d-flex justify-content-between align-items-center">-->
+                                    <!--                                <p class="mb-1">-->
+                                    <!--                                  Simona Disa <span class="small">- 3 hours ago</span>-->
+                                    <!--                                </p>-->
+                                    <!--                              </div>-->
+                                    <!--                              <p class="small mb-0">-->
+                                    <!--                                letters, as opposed to using 'Content here, content here',-->
+                                    <!--                                making it look like readable English.-->
+                                    <!--                              </p>-->
+                                    <!--                            </div>-->
+                                    <!--                          </div>-->
+                                    <!--                        </div>-->
+
+                                    <!--                        <div class="d-flex flex-start mt-4">-->
+                                    <!--                          <a class="me-3" href="#">-->
+                                    <!--                            <img class="rounded-circle shadow-1-strong"-->
+                                    <!--                                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"-->
+                                    <!--                                 width="65" height="65" />-->
+                                    <!--                          </a>-->
+                                    <!--                          <div class="flex-grow-1 flex-shrink-1">-->
+                                    <!--                            <div>-->
+                                    <!--                              <div class="d-flex justify-content-between align-items-center">-->
+                                    <!--                                <p class="mb-1">-->
+                                    <!--                                  John Smith <span class="small">- 4 hours ago</span>-->
+                                    <!--                                </p>-->
+                                    <!--                              </div>-->
+                                    <!--                              <p class="small mb-0">-->
+                                    <!--                                the majority have suffered alteration in some form, by-->
+                                    <!--                                injected humour, or randomised words.-->
+                                    <!--                              </p>-->
+                                    <!--                            </div>-->
+                                    <!--                          </div>-->
+                                    <!--                        </div>-->
+                                    <!--                      </div>-->
+                                    <!--                    </div>-->
+
+                                    <!--                    <div class="d-flex flex-start mt-4">-->
+                                    <!--                      <img class="rounded-circle shadow-1-strong me-3"-->
+                                    <!--                           src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(12).webp" alt="avatar" width="65"-->
+                                    <!--                           height="65" />-->
+                                    <!--                      <div class="flex-grow-1 flex-shrink-1">-->
+                                    <!--                        <div>-->
+                                    <!--                          <div class="d-flex justify-content-between align-items-center">-->
+                                    <!--                            <p class="mb-1">-->
+                                    <!--                              Natalie Smith <span class="small">- 2 hours ago</span>-->
+                                    <!--                            </p>-->
+                                    <!--                            <a href="#!"><i class="fas fa-reply fa-xs"></i><span class="small"> reply</span></a>-->
+                                    <!--                          </div>-->
+                                    <!--                          <p class="small mb-0">-->
+                                    <!--                            The standard chunk of Lorem Ipsum used since the 1500s is-->
+                                    <!--                            reproduced below for those interested. Sections 1.10.32 and-->
+                                    <!--                            1.10.33.-->
+                                    <!--                          </p>-->
+                                    <!--                        </div>-->
+
+                                    <!--                        <div class="d-flex flex-start mt-4">-->
+                                    <!--                          <a class="me-3" href="#">-->
+                                    <!--                            <img class="rounded-circle shadow-1-strong"-->
+                                    <!--                                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp" alt="avatar"-->
+                                    <!--                                 width="65" height="65" />-->
+                                    <!--                          </a>-->
+                                    <!--                          <div class="flex-grow-1 flex-shrink-1">-->
+                                    <!--                            <div>-->
+                                    <!--                              <div class="d-flex justify-content-between align-items-center">-->
+                                    <!--                                <p class="mb-1">-->
+                                    <!--                                  Lisa Cudrow <span class="small">- 4 hours ago</span>-->
+                                    <!--                                </p>-->
+                                    <!--                              </div>-->
+                                    <!--                              <p class="small mb-0">-->
+                                    <!--                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus-->
+                                    <!--                                scelerisque ante sollicitudin commodo. Cras purus odio,-->
+                                    <!--                                vestibulum in vulputate at, tempus viverra turpis.-->
+                                    <!--                              </p>-->
+                                    <!--                            </div>-->
+                                    <!--                          </div>-->
+                                    <!--                        </div>-->
+
+                                    <!--                        <div class="d-flex flex-start mt-4">-->
+                                    <!--                          <a class="me-3" href="#">-->
+                                    <!--                            <img class="rounded-circle shadow-1-strong"-->
+                                    <!--                                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(29).webp" alt="avatar"-->
+                                    <!--                                 width="65" height="65" />-->
+                                    <!--                          </a>-->
+                                    <!--                          <div class="flex-grow-1 flex-shrink-1">-->
+                                    <!--                            <div>-->
+                                    <!--                              <div class="d-flex justify-content-between align-items-center">-->
+                                    <!--                                <p class="mb-1">-->
+                                    <!--                                  Maggie McLoan <span class="small">- 5 hours ago</span>-->
+                                    <!--                                </p>-->
+                                    <!--                              </div>-->
+                                    <!--                              <p class="small mb-0">-->
+                                    <!--                                a Latin professor at Hampden-Sydney College in Virginia,-->
+                                    <!--                                looked up one of the more obscure Latin words, consectetur-->
+                                    <!--                              </p>-->
+                                    <!--                            </div>-->
+                                    <!--                          </div>-->
+                                    <!--                        </div>-->
+
+                                    <!--                        <div class="d-flex flex-start mt-4">-->
+                                    <!--                          <a class="me-3" href="#">-->
+                                    <!--                            <img class="rounded-circle shadow-1-strong"-->
+                                    <!--                                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"-->
+                                    <!--                                 width="65" height="65" />-->
+                                    <!--                          </a>-->
+                                    <!--                          <div class="flex-grow-1 flex-shrink-1">-->
+                                    <!--                            <div>-->
+                                    <!--                              <div class="d-flex justify-content-between align-items-center">-->
+                                    <!--                                <p class="mb-1">-->
+                                    <!--                                  John Smith <span class="small">- 6 hours ago</span>-->
+                                    <!--                                </p>-->
+                                    <!--                              </div>-->
+                                    <!--                              <p class="small mb-0">-->
+                                    <!--                                Autem, totam debitis suscipit saepe sapiente magnam officiis-->
+                                    <!--                                quaerat necessitatibus odio assumenda, perferendis quae iusto-->
+                                    <!--                                labore laboriosam minima numquam impedit quam dolorem!-->
+                                    <!--                              </p>-->
+                                    <!--                            </div>-->
+                                    <!--                          </div>-->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--    end comment-->
+    <!--add Comment-->
+    <section style="background-color: #0099cc;">
+        <div class="container my-5 py-5 text-dark">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-6">
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <div class="d-flex flex-start w-100">
+                                <img class="rounded-circle shadow-1-strong me-3"
+                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(21).webp" alt="avatar"
+                                     width="65"
+                                     height="65"/>
+                                <div class="w-100">
+                                    <h5>Bình luận sản phẩm</h5>
+                                    <!--                    <ul class="rating mb-3" data-mdb-toggle="rating">-->
+                                    <!--                      <li>-->
+                                    <!--                        <i class="far fa-star fa-sm text-danger" title="Bad"></i>-->
+                                    <!--                      </li>-->
+                                    <!--                      <li>-->
+                                    <!--                        <i class="far fa-star fa-sm text-danger" title="Poor"></i>-->
+                                    <!--                      </li>-->
+                                    <!--                      <li>-->
+                                    <!--                        <i class="far fa-star fa-sm text-danger" title="OK"></i>-->
+                                    <!--                      </li>-->
+                                    <!--                      <li>-->
+                                    <!--                        <i class="far fa-star fa-sm text-danger" title="Good"></i>-->
+                                    <!--                      </li>-->
+                                    <!--                      <li>-->
+                                    <!--                        <i class="far fa-star fa-sm text-danger" title="Excellent"></i>-->
+                                    <!--                      </li>-->
+                                    <!--                    </ul>-->
+                                    <div class="form-outline">
+                                        <textarea class="form-control" rows="4" id="input-comment"></textarea>
+                                        <!--                      <label class="form-label" for="textAreaExample">What is your view?</label>-->
+                                    </div>
+                                    <div class="d-flex justify-content-between mt-3">
+                                        <button type="button" class="btn btn-success" id="commentBtn">Nhập</button>
+                                        <button type="button" class="btn btn-danger">
+                                            Hủy <i class="fas fa-long-arrow-alt-right ms-1"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    End Add Comment-->
+
+    <div class="site-section block-3 site-blocks-2 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7 site-section-heading text-center pt-4">
+                    <h2>Featured Products</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="nonloop-block-3 owl-carousel">
+                        <div class="item">
+                            <div class="block-4 text-center">
+                                <figure class="block-4-image">
+                                    <img src="../../css/images/cloth_1.jpg" alt="Image placeholder" class="img-fluid">
+                                </figure>
+                                <div class="block-4-text p-4">
+                                    <h3><a href="#">Tank Top</a></h3>
+                                    <p class="mb-0">Finding perfect t-shirt</p>
+                                    <p class="text-primary font-weight-bold">$50</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="block-4 text-center">
+                                <figure class="block-4-image">
+                                    <img src="../../css/images/shoe_1.jpg" alt="Image placeholder" class="img-fluid">
+                                </figure>
+                                <div class="block-4-text p-4">
+                                    <h3><a href="#">Corater</a></h3>
+                                    <p class="mb-0">Finding perfect products</p>
+                                    <p class="text-primary font-weight-bold">$50</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="block-4 text-center">
+                                <figure class="block-4-image">
+                                    <img src="../../css/images/cloth_2.jpg" alt="Image placeholder" class="img-fluid">
+                                </figure>
+                                <div class="block-4-text p-4">
+                                    <h3><a href="#">Polo Shirt</a></h3>
+                                    <p class="mb-0">Finding perfect products</p>
+                                    <p class="text-primary font-weight-bold">$50</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="block-4 text-center">
+                                <figure class="block-4-image">
+                                    <img src="../../css/images/cloth_3.jpg" alt="Image placeholder" class="img-fluid">
+                                </figure>
+                                <div class="block-4-text p-4">
+                                    <h3><a href="#">T-Shirt Mockup</a></h3>
+                                    <p class="mb-0">Finding perfect products</p>
+                                    <p class="text-primary font-weight-bold">$50</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="block-4 text-center">
+                                <figure class="block-4-image">
+                                    <img src="../../css/images/shoe_1.jpg" alt="Image placeholder" class="img-fluid">
+                                </figure>
+                                <div class="block-4-text p-4">
+                                    <h3><a href="#">Corater</a></h3>
+                                    <p class="mb-0">Finding perfect products</p>
+                                    <p class="text-primary font-weight-bold">$50</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="footer-heading mb-4">Navigations</h3>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Sell online</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Shopping cart</a></li>
+                                <li><a href="#">Store builder</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Mobile commerce</a></li>
+                                <li><a href="#">Dropshipping</a></li>
+                                <li><a href="#">Website development</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Point of sale</a></li>
+                                <li><a href="#">Hardware</a></li>
+                                <li><a href="#">Software</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <h3 class="footer-heading mb-4">Promo</h3>
+                    <a href="#" class="block-6">
+                        <img src="../../css/images/hero_1.jpg" alt="Image placeholder" class="img-fluid rounded mb-4">
+                        <h3 class="font-weight-light  mb-0">Finding Your Perfect Shoes</h3>
+                        <p>Promo from nuary 15 &mdash; 25, 2019</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="block-5 mb-5">
+                        <h3 class="footer-heading mb-4">Contact Info</h3>
+                        <ul class="list-unstyled">
+                            <li class="address">203 Fake St. Mountain View, San Francisco, California, USA</li>
+                            <li class="phone"><a href="tel://23923929210">+2 392 3929 210</a></li>
+                            <li class="email">emailaddress@domain.com</li>
+                        </ul>
+                    </div>
+
+                    <div class="block-7">
+                        <form action="#" method="post">
+                            <label for="email_subscribe" class="footer-heading">Subscribe</label>
+                            <div class="form-group">
+                                <input type="text" class="form-control py-4" id="email_subscribe" placeholder="Email">
+                                <input type="submit" class="btn btn-sm btn-primary" value="Send">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5 mt-5 text-center">
+                <div class="col-md-12">
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;<script data-cfasync="false"
+                                                src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                        <script>document.write(new Date().getFullYear());</script>
+                        All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i>
+                        by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="../../css/js/jquery-3.3.1.min.js"></script>
+<script src="../../css/js/jquery-ui.js"></script>
+<script src="../../css/js/popper.min.js"></script>
+<script src="../../css/js/bootstrap.min.js"></script>
+<script src="../../css/js/owl.carousel.min.js"></script>
+<script src="../../css/js/jquery.magnific-popup.min.js"></script>
+<script src="../../css/js/aos.js"></script>
+<script src="../../css/js/main.js"></script>
+<script src="detailProduct.js"></script>
+<script src="Comment.js"></script>
+</body>
+</html>
